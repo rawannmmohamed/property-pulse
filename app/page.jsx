@@ -1,9 +1,12 @@
+import InfoBoxes from "@/components/InfoBoxes"
+import Hero from "@/components/Hero"
 
 const HomePage = () => {
   return (
-    <div className="text-2xl">
-        Home page
-    </div>
+    <>
+    <Hero/>
+    <InfoBoxes/>
+    </>
   )
 }
 
